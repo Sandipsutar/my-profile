@@ -4,6 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
+    <style>
+      a {
+  text-decoration: none;
+  color: black;
+  
+}
+      #resume{
+        color: blueviolet;
+        font-weight: bolder;
+      }
+      .heading{
+        color: cadetblue;
+        font-style: italic;
+      }
+      svg{
+        color:red;
+        font-weight: bolder;
+      }
+      p{
+        color: blueviolet; font-weight: bolder;
+      }
+      .li{
+        color: coral; font-weight: bolder;
+      }
+      #li{
+        color: brown; font-weight: bolder;
+      }
+    </style>
+    
+    </style>
+    
+   
+    
   </head>
   <body>
     <!-- Header section -->
@@ -21,7 +54,7 @@
             d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
           />
         </svg>
-        &nbsp;Sandip Sutar &nbsp; &nbsp; &nbsp;
+        &nbsp; Sandip Sutar &nbsp; &nbsp; &nbsp;
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -50,7 +83,7 @@
         </svg>
         &nbsp; sandipsutar96@yahoo.com&nbsp; &nbsp; &nbsp; &nbsp;
 
-        <a href="resume.pdf" download=""
+        <a href="resume.pdf" download="" id="resume"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -84,7 +117,7 @@
     <section>
       <!-- Home Section -->
       <section id="home">
-        <h2>Professional Summary &nbsp; &nbsp; &nbsp; &nbsp;</h2>
+        <h2 class="heading">Professional Summary &nbsp; &nbsp; &nbsp; &nbsp;</h2>
         <ul>
           <li>Ability to work with people at all levels in the program</li>
           <li>
@@ -92,19 +125,19 @@
             Applications using Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript,
             TypeScript
           </li>
-          <li>
+          <li class="li">
             Experience on working with version control system - GIT and GitHub
           </li>
-          <li>
+          <li class="li">
             Experience working with JIRA for user stories and bug tracking
           </li>
           <li>
             Strong Debugging & Troubleshooting code experience using Chrome
             Developer Tool
           </li>
-          <li>Working exposure on ID's like VS Code and Notepad++</li>
+          <li class="li">Working exposure on ID's like VS Code and Notepad++</li>
           <li>Good working experience under Agile methodologies environment</li>
-          <li>
+          <li id="li">
             Experience in using Chrome Developer Tool for debugging and
             Troubleshooting the code
           </li>
@@ -115,7 +148,7 @@
     <hr />
     <!-- Technology Stackk Section -->
     <section id="techstack">
-      <h2>My Technology stack is</h2>
+      <h2 class="heading"> My Technology stack is</h2>
       <table border="1">
         <tr>
           <th><strong>Sr.No</strong></th>
@@ -150,7 +183,7 @@
     <hr />
     <!-- Project Section -->
     <section id="projects">
-      <h2><strong>Project Details</strong></h2>
+      <h2 class="heading"><strong>Project Details</strong></h2>
 
       <hr />
 
@@ -177,7 +210,7 @@
 
       <hr />
 
-      <h2><strong>Roles and Responsibililities</strong></h2>
+      <h2 class="heading"><strong>Roles and Responsibililities</strong></h2>
 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Designed and Implemented the user
       interface using HTML5 and CSS3 <br />
@@ -197,7 +230,7 @@
     <hr />
     <!-- Education Details -->
     <section id="education">
-      <h2>My Educational Details</h2> <br>
+      <h2 class="heading">My Educational Details</h2> <br>
       <table border="1">
         <th>
           <tr>

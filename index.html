@@ -46,87 +46,89 @@
       #angular{
         color: blue;
       }
-      
+      header{
+        padding: 20px;
+        background-color: rgb(216, 244, 245);
+      }
+      #resume{
+        color: orange;
+        font-weight: bolder;
+      }
+      .heading{
+        color: cadetblue;
+        font-style: italic;
+      }
+      .header-info{
+        margin-right: 40px;
+        margin-left: 10px;
+      }
+      #resume-text{
+        margin-left: 10px;
+      }
+       #tech{
+        margin-right: 40px;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-right: 30px;
+       }
+       #roles{
+        margin-left: 50px;
+       }
+       li{
+        padding-top: 20px;
+      }
+      .header-info{
+        margin-right: 30px;
+      }
+      #prof-sum{
+        padding-top: 20px;
+      }
+      .table{
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+      #tech-table{
+         margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+      #proj-sec{
+        margin-left: 20px;
+      }
+
     </style>
     
     </style>
-    
+    <!-- CDM link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
    
     
   </head>
   <body>
-    <!-- Header section -->
-    <header>
-      <p>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="bi bi-person-fill"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-          />
-        </svg>
-        &nbsp; Sandip Sutar &nbsp; &nbsp; &nbsp;
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="bi bi-telephone-fill"
-          viewBox="0 0 16 16"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
-          />
-        </svg>
-        &nbsp; 7798 6163 18 &nbsp; &nbsp; &nbsp;
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="bi bi-envelope-fill"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"
-          />
-        </svg>
-        &nbsp; sandipsutar96@yahoo.com&nbsp; &nbsp; &nbsp; &nbsp;
-
-        <a href="resume.pdf" download="" id="resume"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-file-arrow-down-fill"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M8 5a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5A.5.5 0 0 1 8 5"
-            />
-          </svg>
-          RESUME</a
-        >
-      </p>
-    </header>
+   <!-- Header Section -->
+   <header>
+    <i class="fa fa-user fa-lg" aria-hidden="true"></i>
+    <span class="header-info">Sandip sutar </span> 
+    <i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>  
+    <span class="header-info">7798 6163 18  </span>  
+    <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+    <span class="header-info">sandipsutar96@yahoo.com </span> 
+    <a href="assets/resume.pdf" download id="resume">  <i class="fa fa-download fa-lg" aria-hidden="true"></i> <span id="resume-text">RESUME</span>  </a>        
+</header> 
 
     <!-- Navigation Section -->
     <nav>
-      <a href="#home">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;
-      <a href="#techstack">TECH STACK</a> &nbsp; &nbsp; &nbsp; &nbsp;
-      <a href="#projects">PROJECTS</a> &nbsp; &nbsp; &nbsp; &nbsp;
-      <a href="#education">EDUCATION</a> &nbsp; &nbsp; &nbsp; &nbsp;
-      <a href="personalDetail.html" target="blank">PERSONAL DETAILS</a> &nbsp;
-      &nbsp; &nbsp; &nbsp;
-      <a href="others.html" target="_blank">OTHERS</a>&nbsp; &nbsp; &nbsp;
-      &nbsp;
+      <a href="#home"> <span>HOME</span></a> 
+      <a href="#techstack"> <span id="tech">TECH STACK</span></a> 
+      <a href="#projects"> <span id="tech">PROJECTS</span></a> 
+      <a href="#education"> <span id="tech">EDUCATION</span></a> 
+      <a href="personalDetail.html" target="blank"> <span id="tech">PERSONAL DETAILS</span></a> 
+      <a href="others.html" target="_blank"> <span id="tech">OTHERS</span></a>
+      
     </nav>
 
     <!-- Main Section -->
@@ -139,31 +141,31 @@
       </section>
       <!-- Home Section -->
       <section id="home">
-        <h2 class="heading" id="summary">Professional Summary &nbsp; &nbsp; &nbsp; &nbsp;</h2>
+        <span id="prof-sum"><h2 class="heading" id="summary" > Professional Summary</span> </h2>
         <ul>
-          <li>Ability to work with people at all levels in the program</li>
-          <li>
+         <span id="prof-sum"><li>Ability to work with people at all levels in the program</li></span> 
+          <span id="prof-sum"><li id="experience">
             Having 1 years of experience in developing Single page Web
-            Applications using <span id="angular" >Angular 8</span>, HTML5, CSS3, Bootstrap 5, JavaScript,
-            TypeScript
-          </li>
-          <li class="li">
-            Experience on working with version control system - GIT and GitHub
-          </li>
-          <li class="li">
-            Experience working with JIRA for user stories and bug tracking
-          </li>
-          <li>
-            Strong Debugging & Troubleshooting code experience using Chrome
-            Developer Tool
-          </li>
-          <li class="li">Working exposure on ID's like VS Code and Notepad++</li>
-          <li>Good working experience under Agile methodologies environment</li>
-          <li id="li">
-            Experience in using Chrome Developer Tool for debugging and
-            Troubleshooting the code
-          </li>
-          <li>Knowledge of NodeJS</li>
+            Applications using <span class="tech">Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript,
+                TypeScript</span></span> 
+          <span id="prof-sum"></li>
+            <li class="li">
+              Experience on working with version control system - GIT and GitHub
+            </li></span>
+         <span id="prof-sum"><li class="li">
+          Experience working with JIRA for user stories and bug tracking
+        </li></span> 
+         <span id="prof-sum"> <li>
+          Strong Debugging & Troubleshooting code experience using Chrome
+          Developer Tool
+        </li></span>
+          <span id="prof-sum"><li class="li">Working exposure on ID's like VS Code and Notepad++</li></span>
+          <span id="prof-sum"><li>Good working experience under <span id="agile">Agile methodologies environment</span> </li></span>
+         <span id="prof-sum"><li id="li">
+          Experience in using Chrome Developer Tool for debugging and
+          Troubleshooting the code
+        </li></span> 
+         <span id="prof-sum"><li>Knowledge of NodeJS</li></span> 
         </ul>
       </section>
     </section>
@@ -179,25 +181,25 @@
         </tr>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>HTML</td>
-            <td>4</td>
+            <td><span id="tech-table">1</span></td>
+            <td><span id="tech-table">HTML</span></td>
+            <td><span id="tech-table">4</span></td>
            
           </tr>
           <tr>
-            <td>2</td>
-            <td>CSS</td>
-            <td>4</td>
+            <td><span id="tech-table">2</span></td>
+            <td><span id="tech-table">CSS</span></td>
+            <td><span id="tech-table">4</span></td>
           </tr>
           <tr>
-            <td>3</td>
-            <td>JavaScript</td>
-            <td>4</td>
+            <td><span id="tech-table">3</span></td>
+            <td><span id="tech-table">JavaScript</span></td>
+            <td><span id="tech-table">4</span></td>
           </tr>
           <tr>
-            <td>4</td>
-            <td>Angular</td>
-            <td>3</td>
+            <td><span id="tech-table">4</span></td>
+            <td><span id="tech-table">Angular</span></td>
+            <td><span id="tech-table">3</span></td>
           </tr>
         </tbody>
       </table>
@@ -209,45 +211,46 @@
 
       <hr />
 
-      <strong>Name:&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+      <strong><span id="proj-sec">Name:</span></strong>
       <u><strong>Student Managemnet</strong></u
       ><br />
       <br />
 
-      <strong><u>Environment:</u></strong> &nbsp;&nbsp;&nbsp; Angular, React,
+      <strong><u><span id="proj-sec">Environment:</span></u></strong>; Angular, React,
       Java, JavaScript, HTMI, CSS, Bootstrap, GitHub, Agile and JIRA <br />
       <br />
 
-      <strong>Team Size</strong>: 06
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Duration:</strong>
+      <strong><span id="proj-sec">Team Size</span></strong>: 06
+      <strong><span id="proj-sec">Duration:</span></strong>
       <i> &nbsp;2021- 1<sup>st</sup>- July till <u>present</u></i
       ><br />
       <br />
 
-      <strong>Project Description:</strong> This project is mainly used for
+      <strong><span id="proj-sec">Project Description:</span></strong> This project is mainly used for
       student management in colleges, where it helps to manage student record
       like <br />
       student registration, student update, and to see all the list of academic
       activities like score card and attendance
 
       <hr />
+      <!-- roles and responsibility -->
 
       <h2 class="heading"><strong>Roles and Responsibililities</strong></h2>
 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Designed and Implemented the user
-      interface using HTML5 and CSS3 <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Work closely with backend developers
-      for code integration <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Identifying and troubleshooting
-      issues in front end codebase <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Worked in GIT as a version control
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Used JIRA for bug tracking <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Implemented project using Agile
+      <span id="roles">• Designed and Implemented the user
+        interface using HTML5 and CSS3 <br /></span>
+     <span id="roles">• Work closely with backend developers
+      for code integration <br /></span>
+      <span id="roles">• Identifying and troubleshooting
+        issues in front end codebase <br /></span>
+      <span id="roles">• Worked in GIT as a version control
+        <br /></span>
+      <span  id="roles">• Used JIRA for bug tracking <br /></span>
+     <span id="roles">• Implemented project using Agile
       SCRUM methodology, involved in daily stand up calls, sprint retrospective
-      meetings <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• involved in fixing technical issues
-      in production environment <br />
+      meetings <br /></span>
+     <span id="roles">• involved in fixing technical issues
+      in production environment <br /></span>
     </section>
     <hr />
     <!-- Education Details -->
@@ -265,25 +268,25 @@
         </th>
           <tbody>
             <tr>
-              <td>BE</td>
-              <td>CSMIT, Shedung,Panvel</td>
-              <td>MUmbai</td>
-              <td>2019</td>
-              <td>61.27%</td>
+              <td><span class="table">BE</span></td>
+              <td> <span class="table">CSMIT, Shedung,Panvel</span></td>
+              <td> <span class="table">MUmbai</span></td>
+              <td><span class="table">2019</span> </td>
+              <td> <span class="table">61.27%</span></td>
             </tr>
             <tr>
-              <td>Diploma</td>
-              <td>VJIT, Matunga, Mumbai</td>
-              <td>Autonoumous</td>
-              <td>2016</td>
-              <td>72.29%</td>
+              <td> <span class="table">Diploma</span></td>
+              <td> <span class="table">VJIT, Matunga, Mumbai</span></td>
+              <td><span class="table">Autonoumous</span></td>
+              <td> <span class="table">2016</span></td>
+              <td> <span class="table">72.29%</span></td>
             </tr>
             <tr>
-              <td>SSC</td>
-              <td>DVS High School, KoparKhairane, Navi Mumbai</td>
-              <td>State Board</td>
-              <td>2013</td>
-              <td>90.73%</td>
+              <td> <span class="table">SSC</span></td>
+              <td><span class="table">DVS High School, KoparKhairane, Navi Mumbai</span></td>
+              <td><span class="table">State Board</span></td>
+              <td><span class="table">2013</span></td>
+              <td><span class="table">90.73%</span></td>
             </tr>
           </tbody>
   

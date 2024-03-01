@@ -10,6 +10,7 @@
   color: black;
   
 }
+
       #resume{
         color: blueviolet;
         font-weight: bolder;
@@ -27,6 +28,10 @@
       .heading{
         color: cadetblue;
         font-style: italic;
+        font-family: "Roboto", sans-serif;
+      }
+      #link{
+        font-family: "Roboto", sans-serif;
       }
       svg{
         color:red;
@@ -61,6 +66,7 @@
       .header-info{
         margin-right: 40px;
         margin-left: 10px;
+        font-family: "Roboto", sans-serif;
       }
       #resume-text{
         margin-left: 10px;
@@ -73,6 +79,7 @@
        }
        #roles{
         margin-left: 50px;
+        font-family: "Poppins", sans-serif;
        }
        li{
         padding-top: 20px;
@@ -82,21 +89,36 @@
       }
       #prof-sum{
         padding-top: 20px;
+        font-family: "Poppins", sans-serif;
       }
       .table{
         margin-top: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
         margin-left: 20px;
+        font-family: "Poppins", sans-serif;
+        
       }
       #tech-table{
          margin-top: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
         margin-left: 20px;
+        font-family: "Poppins", sans-serif;
+        
+  
       }
       #proj-sec{
         margin-left: 20px;
+        font-family: "Poppins", sans-serif;
+        font-family: "Poppins", sans-serif;
+      }
+      #table,tr, th , td{
+        border: 2px solid rgb(213, 187, 138);
+        border-collapse: collapse;
+      }
+      th, td{
+        padding: 10px;
       }
 
     </style>
@@ -104,6 +126,10 @@
     </style>
     <!-- CDM link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
    
     
@@ -121,7 +147,7 @@
 </header> 
 
     <!-- Navigation Section -->
-    <nav>
+    <nav id="link">
       <a href="#home"> <span>HOME</span></a> 
       <a href="#techstack"> <span id="tech">TECH STACK</span></a> 
       <a href="#projects"> <span id="tech">PROJECTS</span></a> 
@@ -173,12 +199,16 @@
     <!-- Technology Stackk Section -->
     <section id="techstack">
       <h2 class="heading"> My Technology stack is</h2>
-      <table border="1">
-        <tr>
-          <th><strong>Sr.No</strong></th>
-          <th><strong>Technology stack</strong></th>
-          <th><Strong>Rating</Strong></th>
-        </tr>
+      <table >
+        <thead>
+          <tr>
+            <th><strong>Sr.No</strong></th>
+            <th><strong>Technology stack</strong></th>
+            <th><Strong>Rating</Strong></th>
+          </tr>
+
+        </thead>
+        
         <tbody>
           <tr>
             <td><span id="tech-table">1</span></td>
@@ -256,16 +286,18 @@
     <!-- Education Details -->
     <section id="education">
       <h2 class="heading">My Educational Details</h2> <br>
-      <table border="1">
-        <th>
+      <table id="table">
+        <thead>
           <tr>
-              <th><strong>Qualification</strong></th>
-              <th><strong>School/College</strong></th>
-              <th><strong>Board/University</strong></th>
-              <th><strong>Year</strong></th>
-              <th><strong>Percentage</strong></th>
-          </tr>
-        </th>
+            <th><strong>Qualification</strong></th>
+            <th><strong>School/College</strong></th>
+            <th><strong>Board/University</strong></th>
+            <th><strong>Year</strong></th>
+            <th><strong>Percentage</strong></th>
+        </tr>
+
+        </thead>
+         
           <tbody>
             <tr>
               <td><span class="table">BE</span></td>

@@ -77,19 +77,18 @@
         margin-top: 30px;
         margin-right: 30px;
        }
-       #roles{
-        margin-left: 50px;
-        font-family: "Poppins", sans-serif;
-       }
+
        li{
         padding-top: 20px;
       }
       .header-info{
         margin-right: 30px;
       }
-      #prof-sum{
+      #prof-sum ::marker{
         padding-top: 20px;
         font-family: "Poppins", sans-serif;
+        list-style-type: upper-alpha;
+        content: "✍️";
       }
       .table{
         margin-top: 20px;
@@ -120,6 +119,25 @@
       th, td{
         padding: 10px;
       }
+     
+      .roles{
+        list-style-type: lower-alpha;
+        margin-left: 8px;
+      }
+      .roles li {
+        padding-top: 8px;
+        background-color: azure;
+      
+      }
+      .roles li::marker{
+        content: "✍️";
+        margin-right: 20px;
+      }
+      #projectDesc::selection{
+        background-color: rgb(228, 186, 109);
+  
+      }
+    
 
     </style>
     
@@ -256,31 +274,29 @@
       ><br />
       <br />
 
-      <strong><span id="proj-sec">Project Description:</span></strong> This project is mainly used for
-      student management in colleges, where it helps to manage student record
-      like <br />
-      student registration, student update, and to see all the list of academic
-      activities like score card and attendance
-
+      <strong><span id="proj-sec" >Project Description:</span></strong> <span id="projectDesc">This project is mainly used for
+        student management in colleges, where it helps to manage student record
+        like <br> student registration, student update, and to see all the list of academic
+        activities like score card and attendance
+  </span><br />
+      
       <hr />
       <!-- roles and responsibility -->
 
       <h2 class="heading"><strong>Roles and Responsibililities</strong></h2>
+      <ol class="roles">
+        <li>Designed and Implemented the user interface using HTML5 and CSS3</li>
+        <li>Work closely with backend developers for code integration</li>
+        <li>Identifying and troubleshooting issues in front end codebase</li>
+        <li>Worked in GIT as a version control</li>
+        <li>Used JIRA for bug tracking</li>
+        <li>Implemented project using Agile SCRUM methodology, involved in daily stand up calls, sprint retrospective meetings</li>
+        <li>involved in fixing technical issues in production environment</li>
 
-      <span id="roles">• Designed and Implemented the user
-        interface using HTML5 and CSS3 <br /></span>
-     <span id="roles">• Work closely with backend developers
-      for code integration <br /></span>
-      <span id="roles">• Identifying and troubleshooting
-        issues in front end codebase <br /></span>
-      <span id="roles">• Worked in GIT as a version control
-        <br /></span>
-      <span  id="roles">• Used JIRA for bug tracking <br /></span>
-     <span id="roles">• Implemented project using Agile
-      SCRUM methodology, involved in daily stand up calls, sprint retrospective
-      meetings <br /></span>
-     <span id="roles">• involved in fixing technical issues
-      in production environment <br /></span>
+      </ol >
+        
+      
+      
     </section>
     <hr />
     <!-- Education Details -->

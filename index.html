@@ -4,152 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
-    <style>
-      a {
-  text-decoration: none;
-  color: black;
-  
-}
-
-      #resume{
-        color: blueviolet;
-        font-weight: bolder;
-      }
-      #summary{
-        color: blue;
-        background-color: antiquewhite;
-      }
-      .objective{
-        color: blue;
-        background-color: antiquewhite;
-        font-style: italic;
-      }
     
-      .heading{
-        color: cadetblue;
-        font-style: italic;
-        font-family: "Roboto", sans-serif;
-      }
-      #link{
-        font-family: "Roboto", sans-serif;
-      }
-      svg{
-        color:red;
-        font-weight: bolder;
-      }
-      p{
-        color: blueviolet; font-weight: bolder;
-        background-color: aqua;
-      }
-      .li{
-        color: coral; font-weight: bolder;
-      }
-      #li{
-        color: brown; font-weight: bolder;
-        background-color: antiquewhite;
-      }
-      #angular{
-        color: blue;
-      }
-      header{
-        padding: 20px;
-        background-color: rgb(216, 244, 245);
-      }
-      #resume{
-        color: orange;
-        font-weight: bolder;
-      }
-      .heading{
-        color: cadetblue;
-        font-style: italic;
-      }
-      .header-info{
-        margin-right: 40px;
-        margin-left: 10px;
-        font-family: "Roboto", sans-serif;
-      }
-      #resume-text{
-        margin-left: 10px;
-      }
-       #tech{
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 30px;
-        margin-right: 30px;
-       }
-
-       li{
-        padding-top: 20px;
-      }
-      .header-info{
-        margin-right: 30px;
-      }
-      #prof-sum ::marker{
-        padding-top: 20px;
-        font-family: "Poppins", sans-serif;
-        list-style-type: upper-alpha;
-        content: "✍️";
-      }
-      .table{
-        margin-top: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
-        margin-left: 20px;
-        font-family: "Poppins", sans-serif;
-        
-      }
-      #tech-table{
-         margin-top: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
-        margin-left: 20px;
-        font-family: "Poppins", sans-serif;
-        
-  
-      }
-      #proj-sec{
-        margin-left: 20px;
-        font-family: "Poppins", sans-serif;
-        font-family: "Poppins", sans-serif;
-      }
-      #table,tr, th , td{
-        border: 2px solid rgb(213, 187, 138);
-        border-collapse: collapse;
-      }
-      th, td{
-        padding: 10px;
-      }
-     
-      .roles{
-        list-style-type: lower-alpha;
-        margin-left: 8px;
-      }
-      .roles li {
-        padding-top: 8px;
-        background-color: azure;
-      
-      }
-      .roles li::marker{
-        content: "✍️";
-        margin-right: 20px;
-      }
-      #projectDesc::selection{
-        background-color: rgb(228, 186, 109);
-  
-      }
     
-
-    </style>
     
-    </style>
-    <!-- CDM link -->
+    
+    <!-- CDM link
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Google Font Family -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-   
+  
+   <!-- External CSS -->
+   <link rel="stylesheet" href="style.css">
     
   </head>
   <body>
@@ -165,18 +28,18 @@
 </header> 
 
     <!-- Navigation Section -->
-    <nav id="link">
-      <a href="#home"> <span>HOME</span></a> 
-      <a href="#techstack"> <span id="tech">TECH STACK</span></a> 
-      <a href="#projects"> <span id="tech">PROJECTS</span></a> 
-      <a href="#education"> <span id="tech">EDUCATION</span></a> 
-      <a href="personalDetail.html" target="blank"> <span id="tech">PERSONAL DETAILS</span></a> 
-      <a href="others.html" target="_blank"> <span id="tech">OTHERS</span></a>
-      
+    <nav id="navSection">
+      <ul>
+        <li><a href="#home">HOME</a> </li>
+        <li><a href="#techStack">TECH STACK</a> </li>
+        <li><a href="#project">PROJECTS</a>
+        <li><a href="#education">EDUCATION</a></li>
+        <li><a href="personalDetail.html" target="_blank">PERSONAL DETAILS</a></li>
+        <li> <a href="others.html" target="_blank">OTHERS</a></li>
+      </ul>
     </nav>
-
     <!-- Main Section -->
-    <section>
+    <section id="container">
       <!-- Career Objective -->
       <section>
         <h2 class="objective">Career Objective</h2>

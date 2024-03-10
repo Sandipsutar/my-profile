@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber</title>
+    <style>
+        body{
+            border: 2px solid rgb(238, 231, 231);
+            width: fit-content;
+            margin-left: 40%;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        section{
+            text-align: left;
+        }
+        h2{
+            font-size: 150%;
+
+        }
+        button{
+            text-align: left;
+            background-color: rgb(53, 158, 199);
+            border-radius: 8px;
+        }
+        #email{
+            width: fit-content;
+           margin-top: 20px;
+           border-radius: 8px;
+           box-sizing: border-box;
+           
+        }
+        .box1{
+            width:80%;
+        }
+        label{
+            font-size: 100%;
+          
+        }
+        #star{
+            color: red;
+        }
+        #text{
+            width: fit-content; 
+           margin-top: 20px;
+          
+        }
+        .unsub{
+            text-align: right;
+            background-color:aliceblue;
+            margin-left: 65%;
+            
+         
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Subscriber</h2>
+        <hr>
+        <button type="text">We're sorry to see you go, but hey, no hard <br>feelings, hopefully we will see you back one day. <br>
+            Please fill in your email address in order to <br> unsubscribe from the list. <br>
+            You will receive an email to confirm your <br> unsubscription, just to make sure this is <br> not an accident or somebody  else tries to <br> unsubscribe you.
+        </button> <br>
+        <div id="email">
+           <label for="">Email <span id="star">*</span></label>  <br>
+            <input class="box1" type="email"><br>
+         </div>
+         <div id="text">
+            <label for="">Unsubscribe reason</label> <br>
+        <input type="text"placeholder="Unsubscribe reason"> <br>
+        </div>
+        <button class="unsub" type="submit">Unsubscribe</button>
+
+    </section>
+    
+</body>
+</html>
